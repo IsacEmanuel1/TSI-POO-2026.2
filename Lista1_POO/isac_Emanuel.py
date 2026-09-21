@@ -114,10 +114,10 @@ class Data:
 # Testes
 
 if __name__ == "__main__":
-    print("--- Questão 7 ---")
+    print("---  7 ---")
     questao_7()
 
-    print("\n--- Questão 8 ---")
+    print("\n--- 8 ---")
     r1 = Retangulo(3, 4)
     r2 = Retangulo(3, 4)
     r3 = Retangulo(2, 5)
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     print("r1 == r2:", r1 == r2)
     print("r1 == r3:", r1 == r3)
 
-    print("\n--- Questão 9 ---")
+    print("\n--- 9 ---")
     data = Data.de_texto("9/8/2026")
     print(data)
     print(Data(1, 1, 2026))
