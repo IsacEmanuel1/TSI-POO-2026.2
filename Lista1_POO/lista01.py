@@ -13,4 +13,5 @@ class Aluno:
        
         
     def media(self) -> float:
-        pass
+        self._matricula = 4
+        return self._matricula

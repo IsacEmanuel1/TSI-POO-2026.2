@@ -11,8 +11,7 @@ class Livro:
     def __eq__(self, outro: object) -> bool:
         if not isinstance(outro, Livro):
             return NotImplemented
-        return (self.titulo == outro.titulo
-                and self.ano == outro.ano)
+        return (self.titulo == outro.titulo and self.ano == outro.ano)
 
 
 if __name__ == "__main__":
